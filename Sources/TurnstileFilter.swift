@@ -25,8 +25,6 @@ extension TurnstileFilter: HTTPRequestFilter {
         //
         request.user = Subject(turnstile: turnstile, sessionID: request.getCookie(name: "TurnstileSession"))
         
-        print("Cookie: \(request.getCookie(name: "TurnstileSession"))")
-        
         if let apiKeys = request.auth?.basic {
             try? request.user.login(credentials: apiKeys)
         } else if let token = request.auth?.bearer {
