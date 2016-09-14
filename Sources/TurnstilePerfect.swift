@@ -17,7 +17,3 @@ public class TurnstilePerfect {
         responseFilter = (filter, HTTPFilterPriority.high)
     }
 }
-
-import Foundation
-let configuration = URLSessionConfiguration()
-let session = URLSession(configuration: configuration)
