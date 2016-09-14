@@ -1,4 +1,5 @@
 import Turnstile
+import TurnstileWeb
 import PerfectHTTP
 
 public class TurnstilePerfect {
@@ -7,8 +8,8 @@ public class TurnstilePerfect {
     
     private let turnstile: Turnstile
     
-    public init(sessionManager: SessionManager = MemorySessionManager(), realm: Realm = MemoryRealm()) {
-        turnstile = Turnstile(sessionManager: MemorySessionManager(), realm: MemoryRealm())
+    public init(sessionManager: SessionManager = MemorySessionManager(), realm: Realm = WebMemoryRealm()) {
+        turnstile = Turnstile(sessionManager: sessionManager, realm: realm)
         let filter = TurnstileFilter(turnstile: turnstile)
         
         // Not sure how polymorphicism works with tuples, but the compiler was crashing on me
