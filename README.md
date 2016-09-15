@@ -1,5 +1,5 @@
 # Turnstile-Perfect
-[![Slack Status](https://talkstormpath.shipit.xyz/badge.svg)](https://talkstormpath.shipit.xyz)
+[![codebeat badge](https://codebeat.co/badges/0d334c15-4c66-4577-8fe0-6dc5934b194c)](https://codebeat.co/projects/github-com-stormpath-turnstile-perfect) [![Slack Status](https://talkstormpath.shipit.xyz/badge.svg)](https://talkstormpath.shipit.xyz)
 
 This is the [Turnstile](https://github.com/stormpath/Turnstile) integration with [Perfect](https://github.com/PerfectlySoft/Perfect), which integrates authentication into a popular Swift web framework. 
 
