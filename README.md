@@ -55,11 +55,11 @@ request.user.authenticated
 request.user.authDetails?.account.uniqueID 
 
 // A string with the session ID, if persist is true
-request.user.authDetails?.account.sessionID 
+request.user.authDetails?.sessionID 
 
 // This would be UsernamePassword.self on the first request, and
 // Session.self on subsequent requests. 
-request.user.authDetails?.account.credentialType 
+request.user.authDetails?.credentialType 
 ```
 
 ## Registering a User
