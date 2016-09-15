@@ -155,4 +155,4 @@ We're always open to contributions! Since this project is fairly early stage, pl
 
 # Stormpath
 
-Turnstile is built by [Stormpath](https://stormpath.com), an API service for authentication, authorization, and user management. If you're building a website, API, or app, and need to build authentication and user managmeent, consider using Stormpath for your needs. We're always happy to help!
+Turnstile is built by [Stormpath](https://stormpath.com), an API service for authentication, authorization, and user management. If you're building a website, API, or app, and need to build authentication and user management, consider using Stormpath for your needs. We're always happy to help!
