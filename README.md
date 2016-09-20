@@ -13,7 +13,7 @@ To install Turnstile in your Perfect application, add this line to your `Package
 .Package(url: "https://github.com/stormpath/Turnstile-Perfect.git", majorVersion:1)
 ```
 
-Then, in your Perfect application, `import Turnstile`, initialize the TurnstilePerfect object, and add Turnstile to your Perfect application's request and response filters:
+Then, in your Perfect application, `import TurnstilePerfect`, initialize the TurnstilePerfect object, and add Turnstile to your Perfect application's request and response filters:
 
 ```Swift
 // The Perfect Server
